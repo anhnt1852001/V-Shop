@@ -1,0 +1,194 @@
+
+.wrapper .product-detail {
+  font-size: 0.7rem;
+}
+
+.wrapper .product-detail .product-detail__title {
+  border-bottom: 1px solid #cccccc;
+}
+
+.wrapper .product-detail .product-detail__title h2 {
+  font-size: 1rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.wrapper .product-detail .product-detail__title span {
+  background-color: #fed700;
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0.2rem;
+  margin-left: 1rem;
+}
+
+.wrapper .product-detail__main {
+  margin-top: 0.5rem;
+  border-bottom: 1px solid #cccccc;
+}
+
+.wrapper .product-detail__main .product-detail__left .product-detail__image {
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+
+.wrapper .product-detail__main .product-detail__left .product-detail__slide {
+  margin-top: 0.8rem;
+  height: 80px;
+  width: 100%;
+}
+
+.wrapper .product-detail__main .product-detail__left .product-detail__slide .product-detail__slide--item {
+  padding: 0.3rem;
+}
+
+.wrapper .product-detail__main .product-detail__left .product-detail__slide .product-detail__slide--item img {
+  padding: 0.3rem;
+  border: 1px solid #cccccc;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__price {
+  margin-top: 1rem;
+  padding: 0 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__price span::after {
+  content: "đ";
+  text-decoration: underline;
+  font-size: 0.7rem;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__price .product-detail__price--red {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: -0.4rem;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__price .product-detail__price--through {
+  font-size: 1rem;
+  text-decoration: line-through;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__price .product-detail__price--persent {
+  font-size: 0.8rem;
+  color: #d62b2b;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__version {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem 0;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__version .product-detail__version--item {
+  margin-right: 0.5rem;
+  border: 1px solid #9d0808;
+  border-radius: 5px;
+  padding: 0.2rem 0.5rem;
+  font-weight: bold;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__version .product-detail__version--item .product-detail__version--price {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__btn, .wrapper .product-detail__main .product-detail__right .product-detail__btn--green {
+  border: none;
+border-radius: 2px;
+  margin-top: 0.8rem;
+  text-align: center;
+  padding: 0.2rem;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__btn a, .wrapper .product-detail__main .product-detail__right .product-detail__btn--green a {
+  color: white;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__btn a span, .wrapper .product-detail__main .product-detail__right .product-detail__btn--green a span {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__btn a p, .wrapper .product-detail__main .product-detail__right .product-detail__btn--green a p {
+  margin: 0.2rem 0;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__btn a:hover, .wrapper .product-detail__main .product-detail__right .product-detail__btn--green a:hover {
+  text-decoration: none;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__btn--orange {
+  background-color: #ff6600;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__btn--blue {
+  background-color: #0275d8;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__btn--green {
+  background-color: #23c017;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.wrapper .product-detail__main .product-detail__right .product-detail__btn--green a span {
+  font-weight: 400;
+}
+
+.wrapper .product-detail__main .product-detail__policy ul {
+  border: 1px solid #e1e1e1;
+  padding: 0.5rem 1.2rem;
+}
+
+.wrapper .product-detail__main .product-detail__policy ul li {
+  margin-top: 0.5rem;
+  list-style: circle;
+}
+
+.wrapper .product-detail__main .product-detail__accessories .product-detail__btn, .wrapper .product-detail__main .product-detail__accessories .product-detail__right .product-detail__btn--green, .wrapper .product-detail__main .product-detail__right .product-detail__accessories .product-detail__btn--green {
+  padding: 0.5rem;
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.wrapper .product-detail__main .product-detail__accessories ul {
+  border: 1px solid #cccccc;
+}
+
+.wrapper .product-detail__main .product-detail__accessories li {
+  border-bottom: 1px solid #cccccc;
+  padding-left: 1rem;
+  margin-top: 0.2rem;
+}
+
+.wrapper .product-detail__main .product-detail__accessories li span {
+  display: block;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin: 0.2rem 0;
+}
+
+.wrapper .product-detail__desc {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.wrapper .product-detail__desc .product-detail__desc--content {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
